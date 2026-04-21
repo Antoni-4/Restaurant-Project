@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant Name | About</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!--
+    WHEN THIS PAGE IS WORKING:
+    Students should see the same navigation at the top,
+    then a page heading, then a section with a restaurant photo and story,
+    then a section introducing team members.
+  -->
+
+  <header class="site-header">
+    <nav class="navbar">
+      <h1 class="logo">Los Hermanos Mexicanos</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="reservations.html">Reservations</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!--
+      PAGE BANNER
+      WHEN THIS SECTION IS WORKING:
+      This should look like a simple heading area at the top of the page.
+    -->
+    <section class="page-banner">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>Learn more about our story, our food, and our team.</p>
+      </div>
+    </section>
+
+    <!--
+      STORY SECTION
+      WHEN THIS SECTION IS WORKING:
+      There should be an image on one side and text on the other side.
+      On smaller screens, the image and text may stack vertically.
+
+      CHANGE NEEDED:
+      - Add your own restaurant image
+      - Replace the story text
+      W3Schools search:
+      - HTML images
+      - HTML alt attribute
+    -->
+    <section class="content-section">
+      <div class="container two-column">
+        <div>
+          <img src="https://popmenucloud.com/vtldwhci/2d7aef76-6228-4164-b0de-c77673634116.jpeg" alt="Photo of the restaurant" class="about-image">
+        </div>
+
+        <div>
+          <h2>Our Story about our restaurant</h2>
+          <p>
+            Our Restaurant was open back in 1980 when my mom and dad wanted to open a restaurant
+            of their own to let everyone taste their food because everybody in the neighborhood
+            enjoyed it and the owner is super nice to new people coming to eat and the idea was from my parents to keep the 
+            restaurant going.
+          </p>
+          <p>
+            When coming to our restaurant u will see lovely decorations of mexico, treaing customers we kindess if anything 
+            goes wrong and the food here will not disapooint u at all.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--
+      TEAM SECTION
+      WHEN THIS SECTION IS WORKING:
+      There should be 2 or 3 boxes showing team members.
+      Each box should have an image, a name, a role, and a short description.
+
+      CHANGE NEEDED:
+      - Replace names
+      - Replace roles
+      - Replace text
+      - Add your own team images
+      W3Schools search:
+      - CSS border radius
+      - CSS object fit
+    -->
+    <section class="content-section alt-section">
+      <div class="container">
+        <h2>Meet the Team</h2>
+        <p class="section-intro">
+         Here is all about our team members that work hard to keep the 
+         business going.
+        </p>
+
+        <div class="card-row">
+          <div class="team-card">
+            <img src="data:image/jpeg;base64,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" alt="Photo of head chef" class="team-image">
+            <h3>Carlos</h3>
+            <p class="role">Head Chef</p>
+            <p>Carlos is a very hardworking chef that cooks very tasty food 
+              to our customers and he is nice to all people.
+
+            </p>
+          </div>
+
+          <div class="team-card">
+            <img src="data:image/jpeg;base64,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" alt="Photo of restaurant owner" class="team-image">
+            <h3>Pablo</h3>
+            <p class="role">Owner</p>
+            <p>Pablo is vey nice person and looks out for ay issues to make sure 
+              nothing goes wrong.
+            </p>
+          </div>
+
+          <div class="team-card">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJqv7M_9r9THl_hht5WRRJUJNroCbF7nKwrg&s" alt="Photo of manager" class="team-image">
+            <h3>Angel</h3>
+            <p class="role">Manager</p>
+            <p>Angel makes sure the customers are satisfai with their service and
+              makes sure the employees are doing their part.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; 2026 Restaurant Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
